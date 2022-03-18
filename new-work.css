@@ -1,0 +1,257 @@
+*{ 
+    margin-top: 0;  
+    margin-bottom: 0;  
+    margin: 0;padding: 0;   
+} 
+#Aconsulting{ 
+    display: flex; 
+    justify-content: start; 
+    align-items: center; 
+    height: 40px; 
+    width: 100%; 
+    margin-right: 50px; 
+    top: 0; 
+    left: 0; 
+    z-index: 1; 
+    color: white; 
+} 
+#img{ 
+    background: url(https://static.tildacdn.com/tild6662-3535-4365-a461-303532383133/73801a98a2de4e14edd0.jpg); 
+    background-size: cover; 
+    background-position: center; 
+    height: 600px; 
+    margin-top: 0;  
+    margin-bottom: 0; 
+} 
+ 
+#home{ 
+    display: flex; 
+    justify-content: end; 
+    align-items: center; 
+    height: 40px; 
+    width: 100%; 
+    margin-right: 50px; 
+    top: 0; 
+    left: 0; 
+    z-index: 1; 
+    color: white; 
+ 
+} 
+#header{ 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+    height: 750px; 
+    color: white; 
+    font-size: 30px; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    text-align: center; 
+} 
+button{ 
+    display: flex; 
+    justify-content: center; 
+} 
+#button_1{ 
+    height: 40px; 
+    width: 150px; 
+    background-color: rgb(190, 62, 62); 
+    border: none; 
+    border-radius: 18px; 
+    color: aliceblue; 
+} 
+#button_2{ 
+    height: 40px; 
+    width: 150px; 
+    background-color: transparent; 
+    border: 1px solid white; 
+    border-radius: 18px; 
+    color: aliceblue;  
+} 
+.main{  
+    height: 550px;  
+    display: flex;  
+    background-color: white;  
+    justify-content: center;  
+      
+}  
+img{  
+    width: 70px;  
+}  
+.div{  
+    height: 260px;  
+    padding: 15px;  
+    margin: 30px;  
+    width: 230px;  
+    background-color: rgb(238, 238, 238);  
+     
+}  
+button img{  
+    width: 20px;  
+    margin-left: 20px;  
+}  
+button{  
+    display: flex;  
+    align-items: center;  
+    padding: 10px;  
+    background: transparent;  
+    border-radius: 18px;  
+    border: green solid 1px;     
+}  
+.div_button{ 
+    height: 260px;  
+    padding: 15px;  
+    margin: 30px;  
+    width: 230px;  
+    background-color: white;  
+    background: url(https://storage.googleapis.com/support-forums-api/attachment/thread-85783415-17254171187830852657.jpg); 
+} 
+h1{ 
+    display: flex; 
+    justify-content: center;  
+} 
+.border{ 
+    border: solid 1px rgb(74, 85, 247); 
+    padding: 0; 
+    text-align: center; 
+} 
+.border_1{ 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+ 
+} 
+.img-office{ 
+    display: flex; 
+    justify-content: start; 
+    width: 500px;
+    height: 300px;  
+    margin-left: 160px; 
+    margin-top: 8%; 
+} 
+.h3{ 
+    width: 300px; 
+    margin-left: 800px; 
+    margin-top: -300px; 
+    font-size: 30px; 
+ 
+} 
+.text{ 
+    width: 300px; 
+    margin-left: 800px; 
+    color: black; 
+    padding: 5px; 
+} 
+ 
+h2{ 
+    color: white; 
+} 
+.work-4{ 
+    display: flex ; 
+    margin: 0 auto; 
+    width: 400px; 
+    height: 200px; 
+} 
+.work-42{ 
+    width: 50px; 
+    height: 20px; 
+    margin-left: 800px; 
+    color: black; 
+    padding: 5px; 
+} 
+.div-4{ 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+ 
+     
+} 
+.img-4{ 
+    width: 30%;  
+    display: flex; 
+    flex-direction: column; 
+    height: 100px; 
+    width: 100px;  
+    border-radius: 50%; 
+    border: solid 1px rgb(74, 85, 247);    
+} 
+.p_1{ 
+    color: red; 
+} 
+.p_2{ 
+    color: blue; 
+} 
+.questionnaire{ 
+    background-color: rgb(5, 7, 26);
+    height: 800px; 
+    width: 100%; 
+    display: flex; 
+    justify-content: center; 
+}
+.questionnaire_1{ 
+    background-color: white; 
+    border: solid 1px white; 
+    height: 600px; 
+    width: 800px; 
+    display: flex; 
+    justify-content: start; 
+    margin: 10%; 
+}
+#p_11{
+    margin: 10%;
+
+}
+
+.obrabotka{
+    display: flex; 
+    flex-direction: column;
+}
+.send{
+    background-color: chocolate;
+    position:relative;
+    border-radius: 9px;
+    height: 40px;
+    width: 500px;
+    left: -150px;
+    top: 220px;   
+}
+.form_1{
+    background-color: white;
+    position:relative;
+    border-radius: 7px;
+    height: 40px;
+    width: 500px;
+    left: -150px;
+    top: 200px;   
+} 
+.form_2{
+    background-color: white;
+    position:relative;
+    border-radius: 7px;
+    height: 40px;
+    width: 500px;
+    left: -150px;
+    top: 200px;   
+} 
+input{
+    background-color: white;
+    position:relative;
+    border-radius: 7px;
+    height: 40px;
+    width: 500px;
+    left: -150px;
+    top: 200px;    
+}
+.name_1{
+    position:relative;
+    border-radius: 7px;
+    height: 40px;
+    width: 500px;
+    left: -150px;
+    top: 200px;       
+}
+
+
+
+
+
